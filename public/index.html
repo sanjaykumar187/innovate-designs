@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Innovate Designs - Professional Web Design Agency">
+    <title>Innovate Designs - Professional Web Design Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <h1>Innovate Designs</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home" aria-current="page">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <h2>Transform Your Vision into Reality</h2>
+        <p>We create stunning, user-friendly websites for your business.</p>
+        <button class="cta-btn" aria-label="Learn more about our services">Learn More</button>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <h3>Web Design</h3>
+                <p>Modern and responsive designs tailored to your brand.</p>
+                <p><strong>Starting at ₹10,000</strong></p>
+                <button class="cta-btn request-quote" data-service="Web Design">Request Quote</button>
+            </div>
+            <div class="service-item">
+                <h3>Development</h3>
+                <p>Custom web solutions with clean code.</p>
+                <p><strong>Starting at ₹15,000</strong></p>
+                <button class="cta-btn request-quote" data-service="Development">Request Quote</button>
+            </div>
+            <div class="service-item">
+                <h3>SEO</h3>
+                <p>Boost your visibility with our SEO strategies.</p>
+                <p><strong>Starting at ₹5,000/month</strong></p>
+                <button class="cta-btn request-quote" data-service="SEO">Request Quote</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section with Modal -->
+    <section id="portfolio">
+        <h2>Our Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-modal="modal1">
+                <img src="https://via.placeholder.com/300" alt="Project 1 - E-commerce Website">
+                <p>Project 1</p>
+            </div>
+            <div class="portfolio-item" data-modal="modal2">
+                <img src="https://via.placeholder.com/300" alt="Project 2 - Portfolio Website">
+                <p>Project 2</p>
+            </div>
+            <div class="portfolio-item" data-modal="modal3">
+                <img src="https://via.placeholder.com/300" alt="Project 3 - Blog Website">
+                <p>Project 3</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Portfolio Items -->
+    <div id="modal1" class="modal" role="dialog" aria-labelledby="modal1-title" aria-hidden="true">
+        <div class="modal-content">
+            <span class="modal-close" aria-label="Close modal">×</span>
+            <h3 id="modal1-title">Project 1 - E-commerce Website</h3>
+            <p>A fully responsive e-commerce website with secure payment integration.</p>
+            <img src="https://via.placeholder.com/600" alt="Detailed view of Project 1">
+            <a href="https://example.com" target="_blank" class="cta-btn">View Live</a>
+        </div>
+    </div>
+    <div id="modal2" class="modal" role="dialog" aria-labelledby="modal2-title" aria-hidden="true">
+        <div class="modal-content">
+            <span class="modal-close" aria-label="Close modal">×</span>
+            <h3 id="modal2-title">Project 2 - Portfolio Website</h3>
+            <p>A sleek portfolio for a creative professional.</p>
+            <img src="https://via.placeholder.com/600" alt="Detailed view of Project 2">
+            <a href="https://example.com" target="_blank" class="cta-btn">View Live</a>
+        </div>
+    </div>
+    <div id="modal3" class="modal" role="dialog" aria-labelledby="modal3-title" aria-hidden="true">
+        <div class="modal-content">
+            <span class="modal-close" aria-label="Close modal">×</span>
+            <h3 id="modal3-title">Project 3 - Blog Website</h3>
+            <p>A minimalist blog with dynamic content loading.</p>
+            <img src="https://via.placeholder.com/600" alt="Detailed view of Project 3">
+            <a href="https://example.com" target="_blank" class="cta-btn">View Live</a>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials-grid">
+            <blockquote>
+                <p>"Innovate Designs transformed our online presence! Our sales increased by 30%."</p>
+                <cite>- John Doe, CEO</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Their team delivered beyond our expectations. Highly recommend their SEO services."</p>
+                <cite>- Jane Smith, Founder</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Our Blog</h2>
+        <div class="blog-grid">
+            <article class="blog-post">
+                <h3>Top 5 Web Design Trends for 2025</h3>
+                <p>Explore the latest trends in web design to keep your website modern and engaging.</p>
+                <a href="blog-post-1.html" class="cta-btn">Read More</a>
+            </article>
+            <article class="blog-post">
+                <h3>How to Improve Your Website's SEO</h3>
+                <p>Learn actionable tips to boost your website's search engine rankings.</p>
+                <a href="blog-post-2.html" class="cta-btn">Read More</a>
+            </article>
+            <article class="blog-post">
+                <h3>Why Responsive Design Matters</h3>
+                <p>Understand the importance of responsive design for user experience.</p>
+                <a href="blog-post-3.html" class="cta-btn">Read More</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Shop Section (Digital Products) -->
+    <section id="shop">
+        <h2>Our Shop</h2>
+        <div class="shop-grid">
+            <div class="shop-item">
+                <h3>Website Template - Minimalist</h3>
+                <p>A clean and modern website template for portfolios.</p>
+                <p><strong>Price: ₹2,000</strong></p>
+                <button class="cta-btn buy-now" data-product="Minimalist Template">Buy Now</button>
+            </div>
+            <div class="shop-item">
+                <h3>Website Template - E-commerce</h3>
+                <p>A fully responsive e-commerce template with cart functionality.</p>
+                <p><strong>Price: ₹5,000</strong></p>
+                <button class="cta-btn buy-now" data-product="E-commerce Template">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="/send-email" method="POST" aria-label="Contact form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required aria-required="true">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required aria-required="true">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+            
+            <button type="submit" class="cta-btn" aria-label="Submit contact form">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Live Chat -->
+    <div id="live-chat">
+        <button id="chat-toggle" aria-label="Open live chat">💬 Chat with Us</button>
+        <div id="chat-box" aria-hidden="true">
+            <div id="chat-header">
+                <h3>Live Chat</h3>
+                <button id="chat-close" aria-label="Close chat">×</button>
+            </div>
+            <div id="chat-messages">
+                <p>Welcome to Innovate Designs! How can we help you today?</p>
+            </div>
+            <input type="text" id="chat-input" placeholder="Type your message..." aria-label="Type your message">
+            <button id="chat-send" aria-label="Send message">Send</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Innovate Designs. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn profile">LinkedIn</a>
+            <a href="https://github.com" target="_blank" aria-label="GitHub profile">GitHub</a>
+        </div>
+    </footer>
+
+    <!-- jQuery and Custom Script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
