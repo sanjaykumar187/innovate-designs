@@ -51,7 +51,7 @@ $(document).ready(function() {
 
         if (name && email && message) {
             $.ajax({
-                url: '/send-email',
+                url: 'api/send-email',
                 method: 'POST',
                 data: { name, email, message },
                 success: function(response) {
